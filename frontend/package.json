@@ -1,0 +1,15 @@
+{
+  "name": "actual-build-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Actual Build",
+  "main": "index.js",
+  "scripts": {
+    "dev": "echo 'Frontend development server not configured yet'",
+    "build": "echo 'Frontend build not configured yet'",
+    "test": "echo 'Frontend tests not configured yet'",
+    "lint": "echo 'Frontend linting not configured yet'"
+  },
+  "keywords": ["frontend", "web"],
+  "author": "Nibert Investments",
+  "license": "MIT"
+}
