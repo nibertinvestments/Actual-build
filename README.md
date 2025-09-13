@@ -1,14 +1,36 @@
 # Actual Build - Full Stack Development Environment
 
-A comprehensive full stack development environment designed for building modern web applications with ease.
+A comprehensive full stack development environment designed for building modern web applications with ease. **Now with GitHub Codespaces support!**
 
 ## 🚀 Features
 
+- **GitHub Codespaces Ready**: One-click development environment setup
 - **Full Stack Ready**: Configured for both frontend and backend development
+- **Modern Tech Stack**: Next.js 15, Express.js, TypeScript, Tailwind CSS
 - **Environment Management**: Secure environment variable handling with .env support
-- **Modern Tooling**: Latest development tools and best practices
+- **Development Tools**: ESLint, Prettier, hot reload, and more
 - **Scalable Architecture**: Organized project structure for growth
 - **Developer Experience**: Optimized for productivity and ease of use
+
+## 🏗️ Tech Stack
+
+### Frontend
+- **Next.js 15** with App Router
+- **TypeScript** for type safety
+- **Tailwind CSS** for styling
+- **Turbopack** for fast development builds
+
+### Backend
+- **Express.js** with TypeScript
+- **Node.js 20+** runtime
+- **JWT** authentication ready
+- **CORS** and security middleware
+
+### Development
+- **GitHub Codespaces** configuration
+- **VS Code** extensions and settings
+- **ESLint & Prettier** for code quality
+- **Concurrently** for running multiple services
 
 ## 📁 Project Structure
 
@@ -27,13 +49,34 @@ Actual-build/
 
 ## 🛠️ Prerequisites
 
-Before you begin, ensure you have the following installed:
-
+### For Local Development
 - [Node.js](https://nodejs.org/) (v18 or higher)
 - [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/)
 
+### For Codespaces
+- GitHub account
+- Modern web browser
+- (Optional) VS Code with GitHub Codespaces extension
+
 ## ⚡ Quick Start
+
+### Option 1: GitHub Codespaces (Recommended)
+
+1. **Open in Codespace**
+   - Click the green "Code" button on GitHub
+   - Select "Codespaces" tab
+   - Click "Create codespace on main"
+   - Wait for automatic setup (2-3 minutes)
+
+2. **Start Development**
+   ```bash
+   npm run dev
+   ```
+   - Frontend: http://localhost:3000
+   - Backend API: http://localhost:3001
+
+### Option 2: Local Development
 
 1. **Clone the repository**
    ```bash
@@ -99,53 +142,63 @@ ENCRYPTION_KEY=your_encryption_key
 ## 🏗️ Architecture
 
 ### Frontend
-- Modern JavaScript/TypeScript framework ready
-- Component-based architecture
-- State management setup
-- Responsive design utilities
+- Modern JavaScript/TypeScript framework (Next.js 15)
+- Component-based architecture with App Router
+- TypeScript for type safety
+- Tailwind CSS for responsive design
+- Turbopack for fast development builds
 
 ### Backend
-- RESTful API structure
-- Database integration ready
-- Authentication middleware
-- Error handling and logging
+- RESTful API structure with Express.js
+- TypeScript for type safety
+- JWT authentication ready
+- CORS and security middleware configured
+- Environment-based configuration
+- Structured error handling and logging
 
 ### Shared
-- Common utilities
-- Type definitions
-- Validation schemas
-- Constants and configurations
+- Common utilities and type definitions
+- Validation schemas and helper functions
+- Cross-platform constants and configurations
+- Reusable business logic
 
 ## 📚 Documentation
 
-- [Frontend Setup](./docs/frontend.md)
-- [Backend Setup](./docs/backend.md)
-- [Deployment Guide](./docs/deployment.md)
-- [API Documentation](./docs/api.md)
-- [Contributing Guidelines](./docs/contributing.md)
+- **[Codespace Setup](./docs/codespace-setup.md)** - GitHub Codespaces configuration and setup
+- **[Frontend Setup](./docs/frontend.md)** - Next.js development guide
+- **[Backend Setup](./docs/backend.md)** - Express.js API development guide
+- **[API Documentation](./docs/api.md)** - API endpoints and usage
+- **[Deployment Guide](./docs/deployment.md)** - Production deployment instructions
+- **[Contributing Guidelines](./docs/contributing.md)** - How to contribute to the project
 
-## 🚀 Deployment
+## 🎯 Current Status
 
-### Production Build
+✅ **Completed:**
+- GitHub Codespaces configuration
+- Next.js 15 frontend with TypeScript and Tailwind CSS
+- Express.js backend with TypeScript
+- Shared utilities and type definitions
+- Development tooling (ESLint, Prettier)
+- Hot reload and concurrent development
+- Basic API endpoints and health checks
+- Comprehensive documentation
 
-```bash
-npm run build
-```
+🔄 **Ready for Development:**
+- Database integration (PostgreSQL example configured)
+- Authentication system (JWT ready)
+- User management endpoints
+- Frontend components and pages
+- API route expansion
+- Testing framework setup
 
-### Environment Setup
+## 🚀 Getting Started
 
-1. Set up production environment variables
-2. Configure your hosting platform
-3. Deploy using your preferred method
-
-### Supported Platforms
-
-- Vercel
-- Netlify
-- Heroku
-- AWS
-- DigitalOcean
-- Custom VPS
+1. **Create a Codespace** or clone locally
+2. **Edit `.env`** with your configuration
+3. **Run `npm run dev`** to start both servers
+4. **Visit `http://localhost:3000`** to see the frontend
+5. **Test API at `http://localhost:3001/api/health`**
+6. **Start building your application!**
 
 ## 🤝 Contributing
 

@@ -1,7 +1,7 @@
 {
-  "name": "actual-build",
+  "name": "actual-build-shared",
   "version": "1.0.0",
-  "description": "A comprehensive full stack development environment designed for building modern web applications with ease.",
+  "description": "Shared utilities and types for Actual Build",
   "main": "index.js",
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
